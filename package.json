@@ -1,0 +1,26 @@
+{
+  "name": "node-check",
+  "version": "0.0.1",
+  "description": "Can we find the unexpected functions not available in the specified node version?",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js",
+    "lint": "eslint . --ext .js,.jsx"
+  },
+  "keywords": [
+    "node",
+    "analyze"
+  ],
+  "author": "Kiran Parajuli",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.20.0"
+  },
+  "engines": {
+    "node": ">=8.0.0 <=14.20.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.0.0",
+    "pnpm": ">=1.0.0"
+  }
+}
